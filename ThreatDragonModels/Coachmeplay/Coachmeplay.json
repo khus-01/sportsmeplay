@@ -55,8 +55,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "cfa38921-73d9-4a8f-a817-544e6e839cde",
             "zIndex": -1,
+            "id": "cfa38921-73d9-4a8f-a817-544e6e839cde",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1550,6 +1550,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1633,7 +1634,6 @@
               ]
             },
             "id": "b704142d-fb03-4aed-9fb5-ffc2ae8d1494",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -1667,6 +1667,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1750,7 +1751,6 @@
               ]
             },
             "id": "8e499318-48e7-4208-8f78-d996da9949e4",
-            "zIndex": 18,
             "data": {
               "type": "tm.Actor",
               "name": "Internet",
@@ -1784,6 +1784,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -1867,7 +1868,6 @@
               ]
             },
             "id": "4839eb49-8aa0-40ab-8c76-b3ebe79a8568",
-            "zIndex": 19,
             "data": {
               "type": "tm.Actor",
               "name": "Web Server\n",
@@ -1904,6 +1904,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -1987,7 +1988,6 @@
               ]
             },
             "id": "5541bd11-ae89-4691-848d-35251c1908af",
-            "zIndex": 20,
             "data": {
               "type": "tm.Store",
               "name": "Database",
